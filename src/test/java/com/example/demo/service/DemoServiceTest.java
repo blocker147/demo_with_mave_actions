@@ -16,7 +16,7 @@ final class DemoServiceTest {
 //        assertTrue(demoService.addPlayer(""));
     }
     @Test void shouldGetPlayers() {
-//        assertEquals(demoService.getPlayers().size(), 1);
+        assertEquals(demoService.getPlayers().size(), 1);
     }
     @Test void playerShouldExist() {
 //        assertTrue(demoService.playerExist(PLAYER));
