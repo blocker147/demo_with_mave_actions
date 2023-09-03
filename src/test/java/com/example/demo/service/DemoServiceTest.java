@@ -13,12 +13,12 @@ final class DemoServiceTest {
 //        demoService.addPlayer(PLAYER);
     }
     @Test void shouldAddPlayer() {
-//        assertTrue(demoService.addPlayer(""));
+        assertTrue(demoService.addPlayer(""));
     }
     @Test void shouldGetPlayers() {
         assertEquals(demoService.getPlayers().size(), 1);
     }
     @Test void playerShouldExist() {
-//        assertTrue(demoService.playerExist(PLAYER));
+        assertTrue(demoService.playerExist(PLAYER));
     }
 }
