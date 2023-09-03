@@ -10,7 +10,7 @@ final class DemoServiceTest {
     private final DemoService demoService = DemoService.getInstance();
     private static final String PLAYER = "PLAYER";
     @BeforeEach void beforeEach() {
-//        demoService.addPlayer(PLAYER);
+        demoService.addPlayer(PLAYER);
     }
     @Test void shouldAddPlayer() {
         assertTrue(demoService.addPlayer(""));
