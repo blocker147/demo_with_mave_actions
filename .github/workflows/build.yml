@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate JaCoCo badge
         id: jacoco
-        uses: cicirello/jacoco-badge-generator@v2
+        uses: blocker147/jacoco-badge-generator@v2
         with:
           badges-directory: badges
           generate-branches-badge: true
