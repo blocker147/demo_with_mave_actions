@@ -15,9 +15,3 @@ public final class DemoService {
     public Set<String> getPlayers() { return Set.copyOf(players); }
     public boolean playerExist(String player) { return players.contains(player); }
 }
-//git init
-//git add README.md
-//git commit -m "first commit"
-//git branch -M main
-//git remote add origin https://github.com/blocker147/demo_with_mave_actions.git
-//git push -u origin main
