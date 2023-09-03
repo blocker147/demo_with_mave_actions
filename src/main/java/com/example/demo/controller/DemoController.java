@@ -13,8 +13,15 @@ import java.util.Set;
 @RestController
 @RequestMapping("/players")
 public final class DemoController {
+    private static DemoController demoController;
     private final DemoService demoService;
     private DemoController() { demoService = DemoService.getInstance(); }
+    public static DemoController getInstance() {
+        if (demoController == null) {
+            demoController = new DemoController();
+        }
+        return demoController;
+    }
     @PostMapping public ResponseEntity<Boolean> addPlayer(@RequestParam String player) {
         return ResponseEntity.ofNullable(demoService.addPlayer(player));
     }
