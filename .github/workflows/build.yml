@@ -1,9 +1,10 @@
 name: build
 on:
   push:
-    branches: [ "master" ]
+    branches: [ master ]
+    paths: [ '**.java', '.github/workflows/build.yml', 'pom.xml' ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ master ]
 jobs:
   build:
     runs-on: ubuntu-latest
