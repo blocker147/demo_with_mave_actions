@@ -23,3 +23,4 @@ l
 [![branches coverage](https://github.com/cicirello/demo_with_mave_actions/blob/badges/branches.svg)](https://github.com/cicirello/demo_with_mave_actions/actions/workflows/build.yml)
 
 l
+
