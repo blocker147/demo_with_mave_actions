@@ -1,5 +1,4 @@
-name: Measure coverage
-
+name: build
 on:
   push:
     branches: [ "master" ]
