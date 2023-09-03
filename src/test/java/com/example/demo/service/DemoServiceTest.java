@@ -7,18 +7,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 final class DemoServiceTest {
-    private final DemoService demoService = DemoService.getInstance();
+    private final DemoService testObj = new DemoService();
     private static final String PLAYER = "PLAYER";
-    @BeforeEach void beforeEach() {
-        demoService.addPlayer(PLAYER);
-    }
+    @BeforeEach void beforeEach() { testObj.addPlayer(PLAYER); }
     @Test void shouldAddPlayer() {
-        assertTrue(demoService.addPlayer(""));
+        assertTrue(testObj.addPlayer(""));
     }
     @Test void shouldGetPlayers() {
-        assertEquals(demoService.getPlayers().size(), 1);
+        assertEquals(1, testObj.getPlayers().size());
     }
     @Test void playerShouldExist() {
-        assertTrue(demoService.playerExist(PLAYER));
+        assertTrue(testObj.playerExist(PLAYER));
     }
 }

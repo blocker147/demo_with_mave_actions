@@ -1,15 +1,15 @@
 package com.example.demo.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.HashSet;
 import java.util.Set;
 
+@Service
 public final class DemoService {
     private final Set<String> players;
-    private DemoService() {
+    public DemoService() {
         players = new HashSet<>();
-    }
-    public static DemoService getInstance() {
-        return new DemoService();
     }
     public boolean addPlayer(String player) { return players.add(player); }
     public Set<String> getPlayers() { return Set.copyOf(players); }
