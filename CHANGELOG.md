@@ -1,3 +1,14 @@
+## [0.4.5](https://github.com/blocker147/demo_with_mave_actions/compare/v0.4.4...v0.4.5) (2023-09-04)
+
+
+### Bug Fixes
+
+* **7:** readme.md update ([22a2503](https://github.com/blocker147/demo_with_mave_actions/commit/22a25038cd1b26e8fdf199c132fa11a209a388d9))
+* **8:** readme.md refactor ([#22](https://github.com/blocker147/demo_with_mave_actions/issues/22)) ([0ea6c6c](https://github.com/blocker147/demo_with_mave_actions/commit/0ea6c6c630be55e3b59d88d75bc1bcca5cac848f))
+* **9:** readme.md refactor ([f09fcd1](https://github.com/blocker147/demo_with_mave_actions/commit/f09fcd17ddb3a778b3007f9801743c112227cf46))
+
+
+
 ## [0.4.4](https://github.com/blocker147/demo_with_mave_actions/compare/v0.4.3...v0.4.4) (2023-09-04)
 
 
@@ -31,15 +42,6 @@
 ### Bug Fixes
 
 * **6:** fix release.yml warnings ([5a588a8](https://github.com/blocker147/demo_with_mave_actions/commit/5a588a862f1b4ccba336f7025cf695971ac26fc1))
-
-
-
-# [0.4.0](https://github.com/blocker147/demo_with_mave_actions/compare/v0.3.0...v0.4.0) (2023-09-04)
-
-
-### Features
-
-* **5:** conventional commit and release workflow ([#20](https://github.com/blocker147/demo_with_mave_actions/issues/20)) ([d339beb](https://github.com/blocker147/demo_with_mave_actions/commit/d339beb0b508e95ecb4ce2478ab1939b94c22df5))
 
 
 
