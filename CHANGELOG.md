@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/blocker147/demo_with_mave_actions/compare/v0.4.0...v0.4.1) (2023-09-04)
+
+
+### Bug Fixes
+
+* **6:** fix release.yml warnings ([5a588a8](https://github.com/blocker147/demo_with_mave_actions/commit/5a588a862f1b4ccba336f7025cf695971ac26fc1))
+
+
+
 # [0.4.0](https://github.com/blocker147/demo_with_mave_actions/compare/v0.3.0...v0.4.0) (2023-09-04)
 
 
