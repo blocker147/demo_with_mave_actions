@@ -3,4 +3,3 @@
 ![GitHub Latest Release)](https://img.shields.io/github/v/release/blocker147/demo_with_mave_actions.svg)
 
 # Demo Project 
-
