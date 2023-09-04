@@ -2,8 +2,6 @@ name: Releases
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 jobs:
   changelog:
     runs-on: ubuntu-latest
