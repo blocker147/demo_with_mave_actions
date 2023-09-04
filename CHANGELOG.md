@@ -1,3 +1,12 @@
+## [0.4.4](https://github.com/blocker147/demo_with_mave_actions/compare/v0.4.3...v0.4.4) (2023-09-04)
+
+
+### Bug Fixes
+
+* **7:** clear changelog ([c122d53](https://github.com/blocker147/demo_with_mave_actions/commit/c122d530f3b6bd89ab6e601c8eb8c508da7cd562))
+
+
+
 ## [0.4.3](https://github.com/blocker147/demo_with_mave_actions/compare/v0.4.2...v0.4.3) (2023-09-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **5:** conventional commit and release workflow ([#20](https://github.com/blocker147/demo_with_mave_actions/issues/20)) ([d339beb](https://github.com/blocker147/demo_with_mave_actions/commit/d339beb0b508e95ecb4ce2478ab1939b94c22df5))
-
-
-
-# [0.3.0](https://github.com/blocker147/demo_with_mave_actions/compare/v0.2.0...v0.3.0) (2023-09-04)
-
-
-### Features
-
-* **5:** conventional commit and release workflow ([#19](https://github.com/blocker147/demo_with_mave_actions/issues/19)) ([93fab88](https://github.com/blocker147/demo_with_mave_actions/commit/93fab880ac063fadf48a4b7c69b8a5d2392d126a))
 
 
 
