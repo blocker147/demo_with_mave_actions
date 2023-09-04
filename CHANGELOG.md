@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/blocker147/demo_with_mave_actions/compare/v0.3.0...v0.4.0) (2023-09-04)
+
+
+### Features
+
+* **5:** conventional commit and release workflow ([#20](https://github.com/blocker147/demo_with_mave_actions/issues/20)) ([d339beb](https://github.com/blocker147/demo_with_mave_actions/commit/d339beb0b508e95ecb4ce2478ab1939b94c22df5))
+
+
+
 # [0.3.0](https://github.com/blocker147/demo_with_mave_actions/compare/v0.2.0...v0.3.0) (2023-09-04)
 
 
