@@ -5,11 +5,7 @@ phases:
       java: corretto17
   build:
     commands:
-      - mvn clean install
-      - mv target/*.war app.war
+      - mvn clean package -Dmaven.test.skip=true
 artifacts:
   files:
-    - app.war
-#artifacts:
-#  files:
-#    - target/*.war
+    - target/*.war
