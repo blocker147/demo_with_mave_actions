@@ -1,10 +1,10 @@
 name: build
 on:
   push:
-    branches: [ master ]
+    branches: [ non-master ]
     paths: [ '**.java', '.github/workflows/build.yml', 'pom.xml' ]
   pull_request:
-    branches: [ master ]
+    branches: [ non-master ]
 jobs:
   build:
 
