@@ -8,4 +8,4 @@ phases:
       - mvn clean package -Dmaven.test.skip=true
 artifacts:
   files:
-    - target/*.war
+    - target/ROOT.war
