@@ -10,8 +10,6 @@ phases:
 artifacts:
   files:
     - app.war
-  discard-paths: yes
 #artifacts:
 #  files:
 #    - target/*.war
-#  discard-paths: yes
