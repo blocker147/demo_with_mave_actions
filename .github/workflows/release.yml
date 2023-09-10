@@ -1,7 +1,7 @@
 name: Releases
 on:
   push:
-    branches: [ master ]
+    branches: [ non-master ]
 jobs:
   changelog:
     runs-on: ubuntu-latest
