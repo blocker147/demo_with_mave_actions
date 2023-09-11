@@ -3,6 +3,8 @@ phases:
   build:
     commands:
       - mvn clean package -Dmaven.test.skip=true
+      - mv target/ROOT.war ROOT.war
 artifacts:
   files:
-    - target/ROOT.war
+    - ROOT.war
+    - .ebextensions/**/*
