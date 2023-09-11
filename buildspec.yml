@@ -1,11 +1,8 @@
 version: 0.2
 phases:
-  install:
-    runtime-versions:
-      java: corretto17
   build:
     commands:
       - mvn clean package -Dmaven.test.skip=true
 artifacts:
   files:
-    - target/*.war
+    - target/*.jar
