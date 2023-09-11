@@ -5,5 +5,4 @@ phases:
       - mvn clean package -Dmaven.test.skip=true
 artifacts:
   files:
-    - target/demo.war
-  discard-paths: yes
+    - target/ROOT.war
