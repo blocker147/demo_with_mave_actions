@@ -5,4 +5,4 @@ phases:
       - mvn clean package -Dmaven.test.skip=true
 artifacts:
   files:
-    - target/*.jar
+    - target/demo-0.0.1-SNAPSHOT.jar
